@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name eerste_versie-rescue)(type Legacy)(uri ${KIPRJMOD}/eerste_versie-rescue.lib)(options "")(descr ""))
+  (lib (name SparkFun-Switches)(type Legacy)(uri "C:/Users/natha/Elektronica-ict/geconnecteerde systemen/2021/Bachelorproef/KiCad/PCB_RSSI/libraries/SparkFun-Switches.lib")(options "")(descr ""))
 )
