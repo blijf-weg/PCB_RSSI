@@ -463,10 +463,10 @@ $EndComp
 Wire Wire Line
 	2900 900  2900 800 
 $Comp
-L Connector_Generic:Conn_01x04 Prog_head
+L Connector_Generic:Conn_01x04 Prog_head1
 U 1 1 60440B4B
 P 7650 4200
-F 0 "Prog_head" H 7850 4350 50  0000 L CNN
+F 0 "Prog_head1" H 7850 4350 50  0000 L CNN
 F 1 "Conn_01x04" H 7800 4150 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7650 4200 50  0001 C CNN
 F 3 "~" H 7650 4200 50  0001 C CNN
