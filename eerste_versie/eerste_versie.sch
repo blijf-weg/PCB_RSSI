@@ -468,7 +468,7 @@ U 1 1 60440B4B
 P 7650 4200
 F 0 "Prog_head1" H 7850 4350 50  0000 L CNN
 F 1 "Conn_01x04" H 7800 4150 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7650 4200 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 7650 4200 50  0001 C CNN
 F 3 "~" H 7650 4200 50  0001 C CNN
 	1    7650 4200
 	1    0    0    1   
