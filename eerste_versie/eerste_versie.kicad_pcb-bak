@@ -380,7 +380,7 @@
     (fp_text reference SW (at 0.5715 2.2225 180) (layer F.SilkS)
       (effects (font (size 0.6096 0.6096) (thickness 0.127)))
     )
-    (fp_text value SW_DPDT_x2 (at 7.5565 -0.3175 180) (layer F.SilkS)
+    (fp_text value SW_DPDT_x2 (at 7.5565 0.3175 180) (layer F.SilkS)
       (effects (font (size 0.6096 0.6096) (thickness 0.127)))
     )
     (fp_line (start 1.6256 1.42494) (end -0.127 1.42494) (layer F.SilkS) (width 0.2032))

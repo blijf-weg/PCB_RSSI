@@ -64,7 +64,7 @@ F 3 "" H 2500 1850 50  0001 C CNN
 	1    2500 1850
 	1    0    0    -1  
 $EndComp
-Text Notes 1750 1950 0    79   ~ 0
+Text Notes 1650 700  0    79   ~ 0
 Voeding
 Text GLabel 3000 1350 2    50   Input ~ 0
 VDD33
@@ -73,7 +73,7 @@ Wire Wire Line
 NoConn ~ 1200 2000
 NoConn ~ 1200 2100
 NoConn ~ 1200 2200
-Text Notes 6350 1200 0    79   ~ 0
+Text Notes 6050 1850 0    79   ~ 0
 ESP32
 NoConn ~ 5450 2500
 NoConn ~ 5450 2600
@@ -425,36 +425,10 @@ F 3 "~" H 7650 4200 50  0001 C CNN
 	1    7650 4200
 	1    0    0    1   
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J2
-U 1 1 606E0DE4
-P 2350 2450
-F 0 "J2" H 2430 2442 50  0000 L CNN
-F 1 "Conn_01x02" H 2430 2351 50  0000 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 2350 2450 50  0001 C CNN
-F 3 "~" H 2350 2450 50  0001 C CNN
-	1    2350 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR011
-U 1 1 606F0CF9
-P 2150 2650
-F 0 "#PWR011" H 2150 2400 50  0001 C CNN
-F 1 "GND" H 2155 2477 50  0000 C CNN
-F 2 "" H 2150 2650 50  0001 C CNN
-F 3 "" H 2150 2650 50  0001 C CNN
-	1    2150 2650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2150 2550 2150 2650
 Text GLabel 1200 1900 2    50   Input ~ 0
 USB_PWR
 Text GLabel 1650 1250 0    50   Input ~ 0
 USB_PWR
-Text GLabel 2150 2450 0    50   Input ~ 0
-BAT_PWR
 Text GLabel 1650 1450 0    50   Input ~ 0
 BAT_PWR
 Connection ~ 1200 2500
@@ -523,4 +497,38 @@ F 3 "~" H 1850 1350 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Connection ~ 2050 1350
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 606E0DE4
+P 1950 2150
+F 0 "J2" H 2030 2142 50  0000 L CNN
+F 1 "Conn_01x02" H 2030 2051 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 1950 2150 50  0001 C CNN
+F 3 "~" H 1950 2150 50  0001 C CNN
+	1    1950 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR011
+U 1 1 606F0CF9
+P 1750 2350
+F 0 "#PWR011" H 1750 2100 50  0001 C CNN
+F 1 "GND" H 1755 2177 50  0000 C CNN
+F 2 "" H 1750 2350 50  0001 C CNN
+F 3 "" H 1750 2350 50  0001 C CNN
+	1    1750 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 2250 1750 2350
+Text GLabel 1750 2150 0    50   Input ~ 0
+BAT_PWR
+Wire Notes Line
+	450  450  3350 450 
+Wire Notes Line
+	3350 450  3350 2900
+Wire Notes Line
+	3350 2900 450  2900
+Wire Notes Line
+	450  2900 450  450 
 $EndSCHEMATC
